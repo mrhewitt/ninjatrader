@@ -31,11 +31,11 @@ namespace NinjaTrader.NinjaScript.Indicators
     {
         #region Variables
 
-            private double 					vFactor = 0.7; // Default setting for VFactor
+            private double 					vFactor = 0.4; // Default setting for VFactor
 			private int 					tCount = 3;
-			private int 					period = 14;
-			private Brush					upColor					= Brushes.DeepSkyBlue;
-			private Brush					downColor				= Brushes.OrangeRed;
+			private int 					period = 4;
+			private Brush					upColor					= Brushes.SteelBlue;
+			private Brush					downColor				= Brushes.Firebrick;
 			private int						plot0Width				= 2;
 			private PlotStyle				plot0Style				= PlotStyle.Line;
 			private DashStyleHelper			dash0Style				= DashStyleHelper.Solid;
